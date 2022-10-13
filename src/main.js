@@ -14,7 +14,6 @@ async function buscar() {
     });
 
     const valores = await response.json();
-    console.log(valores)
     atualizar_tabela(valores);
 }
 
